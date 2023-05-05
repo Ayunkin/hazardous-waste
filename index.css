@@ -232,14 +232,16 @@ div.menu div a{
 
 .services-item-img-wrapper {
   margin-bottom: 30px;
-  box-sizing: border-box;
-  border: 1px solid;
-  border-radius: 8px;
-  border-image-source: linear-gradient(180deg, #90E344 0%, #6CB42A 100%);
-  border-image-slice: 1;
-
   width: 115px;
   height: 94px;
+  border: 1px solid #6CB42A;
+
+  border-radius: 8px;
+  /* border: double 1px transparent; */
+  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(180deg, #90E344 0%, #6CB42A 100%);
+  background-origin: border-box;
+  background-clip: content-box border-box;
+
   display: flex;
   align-items: center;
   justify-content: center;
