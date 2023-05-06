@@ -402,6 +402,11 @@ div.menu div a{
 
 }
 
+.established-companies-slider-examples-item image {
+  width: 295px;
+  height: 375px;
+}
+
 .established-companies-slider-examples-item p {
   font-weight: 500;
   font-size: 16px;
@@ -420,4 +425,62 @@ div.menu div a{
 
 }
 
+.questions {
+  width: 1600px;
+  margin: 0 auto;
+  padding-top: 146px 200px 120px;
 
+}
+
+.questions-container {
+  margin: 0 auto;
+  width: 1200px;
+  height: 328px;
+  display: flex;
+  justify-content: space-between;
+
+  background: #FFFFFF;
+  box-shadow: 0px 10px 34px rgba(108, 180, 42, 0.1);
+  
+}
+
+.questions-descr {
+  padding: 60px 0 60px 60px;
+}
+
+.questions-descr h1 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #202020;
+}
+
+.questions-descr h2 {
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #202020;
+}
+
+.questions-descr button {
+  border: none;
+  width: 300px;
+  height: 55px;
+  background: linear-gradient(180deg, #90E344 0%, #6CB42A 100%);
+  border-radius: 10px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+
+}
+
+.questions-img {
+  margin-top: auto;
+  margin-bottom: 0;
+  height: 295.05px;
+  width: 514.79px;
+}
