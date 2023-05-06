@@ -354,3 +354,20 @@ div.menu div a{
 .about-company-img-wrapper {
   margin-top: 125px;
 }
+
+.established-companies {
+  height: 776px;
+  background: linear-gradient(147.23deg, #E3FF9B 13.07%, #9CFDBA 83.21%) center center/cover no-repeat;
+}
+
+.established-companies-container {
+  margin: 0 auto;
+  width: 1600px;
+  padding-top: 60px;
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-bottom: 60px;
+
+}
+
+
