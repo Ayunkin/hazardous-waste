@@ -561,3 +561,35 @@ div.menu div a{
   width: 78px;
 }
 
+.requests-container {
+  margin: 0 auto;
+  width: 1600px;
+  padding: 0 200px 120px;
+}
+
+.requests-img-circles {
+  position: absolute;
+  width: 140px;
+  height: 112px;
+  left: 200px;
+}
+
+.requests-container h1 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #202020;
+}
+
+.requests-container h2 {
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #202020;
+}
+
+
