@@ -602,8 +602,15 @@ div.menu div a{
   width: 504px;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+}
+
+.requests-descr-item {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 22px;
 }
 
 .requests-descr-item p {
@@ -613,8 +620,10 @@ div.menu div a{
   color: #000000;
 }
 
-.requests-descr-items img {
+.requests-descr-item img {
   width: 12px;
   height: 12px;
+  position: relative;
+  bottom: 12px;
 }
 
