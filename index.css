@@ -599,7 +599,7 @@ div.menu div a{
 }
 
 .requests-descr-items {
-  width: 504px;
+  width: 540px;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -611,6 +611,7 @@ div.menu div a{
   display: flex;
   justify-content: start;
   margin-bottom: 22px;
+  margin-right: 20px;
 }
 
 .requests-descr-item p {
@@ -627,3 +628,7 @@ div.menu div a{
   bottom: 12px;
 }
 
+.requests-descr-item-two {
+  display: flex;
+  justify-content: start;
+}
